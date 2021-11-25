@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,CAAC,CAAC;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CAAG;;AAE3B,AAAA,IAAI,CAAC;EACH,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,IAAI;EACX,WAAW,EAAE,8BAA8B;CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_structure.sass",
+        "../sass/_navigation.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
