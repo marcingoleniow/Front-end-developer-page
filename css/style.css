@@ -462,8 +462,61 @@ nav.mobile .dots div.information.active {
 
 header {
   grid-area: baner;
-  background-color: #956;
 }
+
+header.mobile {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+header.mobile img {
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0.6;
+
+}
+
+header.mobile h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 20px;
+  /* letter-spacing: .2px; */
+  font-weight: bold;
+  text-shadow: 0 0 6px #229dd1;
+
+}
+
+header.mobile .dots {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+header.mobile .dots span {
+  display: inline-block;
+  background-color: #229dd1;
+  margin: 0 20px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 0 2px white;
+}
+
+header.mobile .dots span.active {
+  box-shadow: 0 0 0 2px white, 0 0 3px 5px #229dd1;
+}
+
+/* ------------------------------------------ */
 
 section {
   grid-area: content;
